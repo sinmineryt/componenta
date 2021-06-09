@@ -1,7 +1,6 @@
 const loadAllComponents = require("./loadAllComponents.js")
 const Component = require("./component.js")
 
-// Hello
 const Componenta = {
   "config": {},
   "components": [],
