@@ -6,7 +6,17 @@ You can use these components directly in HTML. I've made this because I was bore
 ## Using
 Use Componenta just by adding the following script tag into your HTML document:
 ```html
+<!-- Minified version -->
 <script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.0/dist/componenta.min.js"></script>
+<!-- Unminified version (not recommended) -->
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.0/dist/componenta.js"></script>
+```
+Or directly fetch from master **(do not use this in production)**
+```html
+<!-- Minified version -->
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@master/dist/componenta.min.js"></script>
+<!-- Unminified version (not recommended) -->
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@master/dist/componenta.js"></script>
 ```
 
 ## Configuring
