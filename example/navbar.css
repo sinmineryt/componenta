@@ -1,0 +1,8 @@
+.navbar > div {
+  align-items: center;
+  line-height: 100%;
+}
+
+.navbar > div > a {
+  margin-left: 5px;
+}
