@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Componenta Example - Homepage</title>
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+    <div id="app">
+      <navbar></navbar>
+      <div id="content">
+        <h1>Welcome to Homepage</h1>
+        <p>Example! Hello world!</p>
+      </div>
+    </div>
+    <script src="../dist/componenta.js"></script>
+    <script src="./components.js"></script>
+    <script>
+      window.Componenta.config = { debug: true };
+
+      // Initialize the components that you want to use on this page
+      new Navbar();
+    </script>
+  </body>
+</html>
