@@ -44,8 +44,7 @@ module.exports = function (message) {
 
 var loadAllComponents = require("./loadAllComponents.js");
 
-var Component = require("./component.js"); // Hello
-
+var Component = require("./component.js");
 
 var Componenta = {
   "config": {},
