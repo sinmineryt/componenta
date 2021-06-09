@@ -10,3 +10,12 @@ class Navbar extends Component {
       </div>";
   }
 }
+
+class InnerHtml extends Component {
+  constructor() {
+    super("innerhtml-test");
+  }
+  html() {
+    return "<inner-html />";
+  }
+}

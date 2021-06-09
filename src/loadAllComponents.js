@@ -18,9 +18,14 @@ module.exports = function () {
     debug("[Debug] Loaded component %s%o", component.name, component);
     document.querySelectorAll(component.name).forEach(function (element) {
       debug("[Debug] Found element for component%o", element);
-      element.innerHTML = component.html;
-      element.outerHTML = `<div class="${component.name}">${element.innerHTML}</div>`;
-      debug("[Debug] Successfully added component %s to DOM", component.name);
+      const e = document.createElement("div");
+      e.innerHTML = component.html;
+      e.setAttribute("class", component.name);
+      if (e.querySelector("inner-html")) {
+        e.querySelector("inner-html").remove();
+        e.innerHTML += element.innerHTML;
+      }
+      element.outerHTML = e.outerHTML;
     });
   });
 };
