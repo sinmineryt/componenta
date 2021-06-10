@@ -7,9 +7,9 @@ You can use these components directly in HTML. I've made this because I was bore
 Use Componenta just by adding the following script tag into your HTML document:
 ```html
 <!-- Minified version -->
-<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.0/dist/componenta.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.1/dist/componenta.min.js"></script>
 <!-- Unminified version (not recommended) -->
-<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.0/dist/componenta.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.1/dist/componenta.js"></script>
 ```
 Or directly fetch from master **(do not use this in production)**
 ```html
@@ -22,7 +22,7 @@ Or directly fetch from master **(do not use this in production)**
 ## Configuring
 To configure Componenta, add the following code below the script tag in Using:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.0/dist/componenta.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sinmineryt/componenta@1.1/dist/componenta.min.js"></script>
 <script>
 window.Componenta.config = { /* Configuration options here */ };
 </script>
